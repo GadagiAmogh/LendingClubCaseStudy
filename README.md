@@ -1,48 +1,49 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+
+> Problem Statement: Lending Club is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface.
+
+
+> Lending loan to risky applicant is the largest source of financial loss. The credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. 
+
+## Objective
+
+> Identify the driving factors behind loan getting charged off and identify risky loan applicants, and taking appropriate steps such as denying loan, reducing loan amount at higher interest rate, etc.
+
+
+> Be able to identify the trend and give business insights to the loan lending organizations.
+
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* Problem Solving Methodology
+* Exploratory Data Analysis Outline
+* Feature Analysis
+* Feature Correlation
+* Recommendations
 
-<!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Business Understanding
+- When a lending organization recieves a loan application, it has to make a decision for loan approval based on the applicant’s profile.
+- Two types of risks are associated with the bank’s decision:
+    1. If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+    2. If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the         company
+- The data given below contains the information about past loan applicants (2007-2011) and whether they ‘defaulted’ or not.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+![image](https://user-images.githubusercontent.com/91035586/140588966-84518d5e-ce27-40ab-9138-4ec0d252328a.png)
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Libraries Used
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [amoghgadagi@gmail.com] - feel free to contact me!
 
 
 <!-- Optional -->
